@@ -1,0 +1,1 @@
+'mongodb+srv://awasthiparas6:Paras123@cluster0.cqcraga.mongodb.net/User?retryWrites=true&w=majority'

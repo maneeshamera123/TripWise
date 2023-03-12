@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TripWise.GuiderProfile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.cmt{
+    width: 100%;
+    padding: 5%;
+}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+
+  <span class="w3-bar-item w3-right">TripWise</span>
+</div>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-top:43px;">
+
+  <!-- Header -->
+    <header class="w3-container" style="padding-top:22px">
+    <h3><b><i class="fa fa-user"></i> Profile</b></h3>
+  <div class="w3-col s8 w3-bar">
+     <h3>Guider Name</h3></span>
+   
+      <a ><i class="fa fa-user"></i>   Phone No.</a>
+    <br><br>
+
+  </div>
+
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-quarter">
+      <div class="w3-container w3-red w3-padding-16">
+        <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+        <div class="w3-right">
+        </div>
+        <div class="w3-clear"></div>
+      <h4><a href="/chat">Chat</a></h4>
+      </div>
+    </div>
+   
+    <div class="w3-quarter">
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left"><i class="fa fa-ticket w3-xxxlarge"></i></div>
+        <div class="w3-right">
+        </div>
+        <div class="w3-clear"></div>
+        <h4><a href="/Billing">Book now</a></h4>
+      </div>
+    </div>    
+        <div class="w3-clear"></div>
+        
+  <hr>
+  <div class="w3-container">
+    <h5>Ratings</h5>
+     <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-green" style="width:75%">+75%</div>
+      
+    </div>
+<h2>Star Rating</h2>
+<input type="button" value="1">
+<input type="button" value="2">
+<input type="button" value="3">
+<input type="button" value="4">
+<input type="button" value="5">
+  <div class="w3-container">
+    <h5>Recent Comments</h5>
+    <div class="w3-row">
+      <div class="w3-col m2 text-center">
+        <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
+      </div>
+
+      <div class="w3-col m10 w3-container">
+        <h4>user 1 <span class="w3-opacity w3-medium">Sep 29, 2014, 9:12 PM</span></h4>
+        <p>user 1 comment</p><br>
+      </div>
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-col m2 text-center">
+        <img class="w3-circle" src="/w3images/avatar1.png" style="width:96px;height:96px">
+      </div>
+      <div class="w3-col m10 w3-container">
+        <h4>user 2 <span class="w3-opacity w3-medium">Sep 28, 2014, 10:15 PM</span></h4>
+        <p>user 2 comment</p><br>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <label for="Name"><b>Write Review</b></label>
+  <br>
+    <input type="text" class="cmt" placeholder="Write your experience" name="FirstName" id="Name" required>
+<br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-green">Demographic</h5>
+        <p>Language</p>
+        <p>Country</p>
+        <p>City</p>
+      </div>
+    </div>
+  </div>
+
+</header>
+</body>
+</html>
